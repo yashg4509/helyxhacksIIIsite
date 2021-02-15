@@ -3,7 +3,7 @@ import Head from "next/head";
 export default ({
   title = "Helyx Hacks III",
   description = "A 7-day biotech hackathon for middle and high schoolers online.",
-  image = "https://angelhacks.org/static/banner-inverted.png",
+  image = "https://cdn.glitch.com/666e912e-e611-47bd-a637-43b16a54ef38%2Fhelyxlogoandtext%20(3).png?v=1613417530674",
   url = "http://helyxhacks.org/"
 }) => (
   <Head>
@@ -28,7 +28,7 @@ export default ({
           "@type": "Organization",
           name: "helyxhacksIII",
           url: "https://helyxhacks.org",
-          logo: "https://angelhacks.org/logo_inverted.png",
+          logo: "https://cdn.glitch.com/666e912e-e611-47bd-a637-43b16a54ef38%2F9ed4f9_2bf7dacbfe864c028e5ff4ad9394d505_mv2.png?v=1613412449427",
           sameAs: [
             "https://www.instagram.com/thehelyxinitiative/",
             "https://www.facebook.com/thehelyxinitiative/"
@@ -57,7 +57,7 @@ export default ({
             "Register today for a 7 day free hackathon online. Helyx Hacks III will start on April 2nd, 2021 and open to all middle and high school students.",
           isAccessibleForFree: true,
           url: "https://helyxhacks.org",
-          image: "https://angelhacks.org/static/logo-inverted.png",
+          image: "https://cdn.glitch.com/666e912e-e611-47bd-a637-43b16a54ef38%2F9ed4f9_2bf7dacbfe864c028e5ff4ad9394d505_mv2.png?v=1613412449427",
           location: {
             "@type": "Place",
             name: "Online",
