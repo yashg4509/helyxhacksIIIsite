@@ -135,7 +135,7 @@ export default props => {
             }}
           >
             <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
-              AngelHacks, event run by Ad Astra Hack Club
+              Helyx Hacks III, event run by The Helyx Initiative
             </Text>
             <Text
               sx={{
