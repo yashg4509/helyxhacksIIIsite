@@ -1,10 +1,10 @@
-import Head from 'next/head'
+import Head from "next/head";
 
 export default ({
-  title = 'Helyx Hacks III',
-  description = 'A 7-day biotech hackathon for middle and high schoolers online.',
-  image = 'https://angelhacks.org/static/banner-inverted.png',
-  url = 'http://helyxhacks.org/'
+  title = "Helyx Hacks III",
+  description = "A 7-day biotech hackathon for middle and high schoolers online.",
+  image = "https://angelhacks.org/static/banner-inverted.png",
+  url = "http://helyxhacks.org/"
 }) => (
   <Head>
     <title>{title}</title>
@@ -24,22 +24,21 @@ export default ({
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'Organization',
-          name: 'helyxhacksIII',
-          url: 'https://helyxhacks.org',
-          logo: 'https://angelhacks.org/logo_inverted.png',
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "helyxhacksIII",
+          url: "https://helyxhacks.org",
+          logo: "https://angelhacks.org/logo_inverted.png",
           sameAs: [
-            'https://twitter.com/angelhacks_la',
-            'https://www.instagram.com/angelhacks.la',
-            'https://www.facebook.com/angelhacks_la'
+            "https://www.instagram.com/thehelyxinitiative/",
+            "https://www.facebook.com/thehelyxinitiative/"
           ],
           contactPoint: [
             {
-              '@type': 'ContactPoint',
-              email: 'hello@angelhacks.org',
-              contactType: 'customer support',
-              url: 'https://angelhacks.org'
+              "@type": "ContactPoint",
+              email: "yash@helyxscience.org",
+              contactType: "customer support",
+              url: "https://helyxhacks.org"
             }
           ]
         })
@@ -49,48 +48,41 @@ export default ({
       type="application/ld+json"
       dangerouslySetInnerHTML={{
         __html: JSON.stringify({
-          '@context': 'http://schema.org/',
-          '@type': 'Event',
-          name: 'AngelHacks',
-          startDate: '2019-10-26T9:00',
-          endDate: '2019-10-26T21:00',
+          "@context": "http://schema.org/",
+          "@type": "Event",
+          name: "Helyx Hacks III",
+          startDate: "2021-04-02T10:00",
+          endDate: "2021-04-09T16:00",
           description:
-            'Register today for 12 hours of coding, fun, free food, and prizes. AngelHacks will be on October 26, 2019 and open to all middle and high school students.',
+            "Register today for a 7 day free hackathon online. Helyx Hacks III will start on April 2nd, 2021 and open to all middle and high school students.",
           isAccessibleForFree: true,
-          url: 'https://angelhacks.org',
-          image: 'https://angelhacks.org/static/logo-inverted.png',
+          url: "https://helyxhacks.org",
+          image: "https://angelhacks.org/static/logo-inverted.png",
           location: {
-            '@type': 'Place',
-            name: 'Snapchat Headquarters',
-            address: {
-              '@type': 'PostalAddress',
-              addressLocality: 'Los Angeles',
-              addressRegion: 'CA',
-              postalCode: '90291',
-              streetAddress: '606 Venice Blvd., Venice 90291'
-            }
+            "@type": "Place",
+            name: "Online",
           },
           sponsor: {
-            '@type': 'Organization',
-            name: 'Hack Club',
-            url: 'https://hackclub.com'
+            "@type": "Organization",
+            name: "The Helyx Initiative",
+            url: "https://helyx.science"
           },
           offers: {
-            '@type': 'Offer',
-            name: 'Free Admission',
-            url: 'https://angelhacks.com',
-            price: '0',
-            priceCurrency: 'USD',
-            availability: 'https://schema.org/InStock',
-            validFrom: '2019-04-01',
-            validThrough: '2019-06-22'
+            "@type": "Offer",
+            name: "Free Admission",
+            url: "https://helyxhacks.org",
+            price: "0",
+            priceCurrency: "USD",
+            availability: "https://schema.org/InStock",
+            validFrom: "2021-02-15",
+            validThrough: "2021-04-05"
           },
           performer: {
-            '@type': 'PerformingGroup',
-            name: 'AngelHacks Ad Astra Team'
+            "@type": "PerformingGroup",
+            name: "The Helyx Initiative"
           }
         })
       }}
     />
   </Head>
-)
+);
