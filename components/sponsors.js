@@ -7,20 +7,20 @@ import theme from "./theme";
 
 const data = {
   sponsors: [
-    {
-      name: "TBD",
-      link: "https://helyx.science",
-      image:
-        "https://cdn.glitch.com/666e912e-e611-47bd-a637-43b16a54ef38%2F9ed4f9_2bf7dacbfe864c028e5ff4ad9394d505_mv2.png?v=1613412449427"
-    }
+    // {
+    //   name: "TBD",
+    //   link: "https://helyx.science",
+    //   image:
+    //     "https://cdn.glitch.com/666e912e-e611-47bd-a637-43b16a54ef38%2F9ed4f9_2bf7dacbfe864c028e5ff4ad9394d505_mv2.png?v=1613412449427"
+    // }
   ],
   additionalSupport: [
-     {
-      name: "TBD",
-      link: "https://helyx.science",
-      image:
-        "https://cdn.glitch.com/666e912e-e611-47bd-a637-43b16a54ef38%2F9ed4f9_2bf7dacbfe864c028e5ff4ad9394d505_mv2.png?v=1613412449427"
-    }
+    //  {
+    //   name: "TBD",
+    //   link: "https://helyx.science",
+    //   image:
+    //     "https://cdn.glitch.com/666e912e-e611-47bd-a637-43b16a54ef38%2F9ed4f9_2bf7dacbfe864c028e5ff4ad9394d505_mv2.png?v=1613412449427"
+    // }
   ]
 };
 
