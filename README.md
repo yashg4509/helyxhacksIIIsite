@@ -1,3 +1,5 @@
-# Get Started!
+# AngelHacks 2019 site
 
-Add files and start typing 🎉
+[**angelhacks.org**](https://angelhacks.org)
+
+MIT License
