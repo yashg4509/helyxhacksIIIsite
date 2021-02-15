@@ -19,7 +19,7 @@ const data = {
       name: "TBD",
       link: "https://helyx.science",
       image:
-        "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.helyx.science%2F&psig=AOvVaw2bORSroxZS1sSzdsx5PqlD&ust=1613498707966000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCID7i5297O4CFQAAAAAdAAAAABAD"
+        "https://cdn.glitch.com/666e912e-e611-47bd-a637-43b16a54ef38%2F9ed4f9_2bf7dacbfe864c028e5ff4ad9394d505_mv2.png?v=1613412449427"
     }
   ]
 };
