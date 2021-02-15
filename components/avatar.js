@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { Image, Link as A } from 'rebass'
 
 export default ({ size = 50, light = false, ...props }) => (
-  <Link href="https://angelhacks.org">
+  <Link href="https://helyxhacks.org">
     <A sx={{ cursor: 'pointer', lineHeight: 0 }}>
       <Image
         {...props}

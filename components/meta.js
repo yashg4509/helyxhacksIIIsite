@@ -1,10 +1,10 @@
 import Head from 'next/head'
 
 export default ({
-  title = 'AngelHacks – Dedicated to giving back!',
-  description = 'A 12-hour hackathon for middle and high schoolers in Los Angeles.',
+  title = 'Helyx Hacks III',
+  description = 'A 7-day biotech hackathon for middle and high schoolers online.',
   image = 'https://angelhacks.org/static/banner-inverted.png',
-  url = 'https://angelhacks.org'
+  url = 'http://helyxhacks.org/'
 }) => (
   <Head>
     <title>{title}</title>
@@ -12,8 +12,8 @@ export default ({
     <meta name="twitter:title" content={title} />
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="AngelHacks" />
-    <meta name="twitter:site" content="@angelhacks_la" />
+    <meta property="og:site_name" content="Helyx Hacks III" />
+    <meta name="twitter:site" content="@thehelyxinitiative" />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
@@ -26,8 +26,8 @@ export default ({
         __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          name: 'angelhacks',
-          url: 'https://angelhacks.org',
+          name: 'helyxhacksIII',
+          url: 'https://helyxhacks.org',
           logo: 'https://angelhacks.org/logo_inverted.png',
           sameAs: [
             'https://twitter.com/angelhacks_la',

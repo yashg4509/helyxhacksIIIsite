@@ -62,13 +62,10 @@ export default props => {
             variant="styles.navitem"
             sx={{ display: ['none', 'block'], fontWeight: 'mediumbold' }}
           >
-            AngelHacks
+            Helyx Hacks III
           </A>
         </Link>
         <Box sx={{ mx: 'auto' }} />
-        <Link href="/schedule">
-          <A variant="styles.navitem">Schedule</A>
-        </Link>
         <Link href="/register">
           <A variant="styles.navitem">Register</A>
         </Link>
@@ -113,20 +110,20 @@ export default props => {
         >
           <Flex sx={{ justifyContent: 'center' }}>
             <A
-              href="https://instagram.com/angelhacks.la"
+              href="https://www.instagram.com/thehelyxinitiative/"
               title="Instagram"
               sx={{ mx: 2 }}
             >
               <Icon glyph="instagram" size={36} />
             </A>
             <A
-              href="https://github.com/angelhacks/site"
+              href="https://github.com/helyx-science"
               title="GitHub"
               sx={{ mx: 2 }}
             >
               <Icon glyph="github" size={36} />
             </A>
-            <A href="mailto:claire@angelhacks.org" title="Email" sx={{ mx: 2 }}>
+            <A href="mailto:yash@helyxscience.org" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
             </A>
           </Flex>
@@ -148,9 +145,6 @@ export default props => {
                 mb: 0
               }}
             >
-              Fiscally sponsored by The Hack Foundation.
-              <br />
-              Nonprofit EIN: 81-2908499.
             </Text>
           </Box>
         </Box>
